@@ -29,7 +29,7 @@ GET	| /accounts/current	| Get current account data	| × | ×
 GET	| /accounts/demo	| Get demo account data (pre-filled incomes/expenses items, etc)	|   | 	×
 PUT	| /accounts/current	| Save current account data	| × | ×
 POST	| /accounts/	| Register new account	|   | ×
-
+   
 
 #### Statistics service
 Performs calculations on major statistics parameters and captures time series for each account. Datapoint contains values, normalized to base currency and time period. This data is used to track cash flow dynamics in account lifetime.
